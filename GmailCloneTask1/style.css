@@ -1,0 +1,53 @@
+body{
+    margin: 10px;
+}
+.coloumn{
+    display: flex;
+    justify-content: center;
+}
+.Profile-Picture{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    border-radius: 50%;
+}
+.Introducton{
+    display: block;
+    text-align: center;
+}
+.cards-container{
+    margin: 50px;
+    display: flex;
+    padding: 10 10 0 10;
+    flex-direction: column;
+    position: relative;
+}
+.card{
+    width: 400px;
+    display: flex;
+    margin-top: 20px;
+    border: 2px rgb(247, 240, 240) solid;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+}
+.card-info{
+    padding: 10px;
+}
+.logo{
+    border-radius: 50px;
+}
+
+ .card-bottom{
+    border: 2px rgb(148, 143, 143) solid;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    position: absolute;
+    top: 180px;
+    height: 20px;
+}
+.card-bottom1{
+    display: flex;
+} 
