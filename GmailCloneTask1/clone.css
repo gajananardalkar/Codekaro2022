@@ -1,0 +1,62 @@
+body{
+    padding: 20px   ;
+}
+
+.profile-picture{
+    border-radius: 50%;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+}
+.Detail{
+    justify-content: center;
+}
+.Detail h1{
+    font-weight: lighter;
+    text-align: center;
+}
+.Detail p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: 25px;
+    border: 1px solid rgb(168, 156, 156);
+    border-radius: 10px;
+    width: 425px;
+}
+.info-container{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.logo{
+    justify-content: center;
+}
+.info h2, p{
+    margin: 0px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info p{
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: left;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.info-link{
+    margin-top: 10px;
+    border-top: 1px solid rgb(168, 156, 156);
+    padding: 15px;
+    
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+}
