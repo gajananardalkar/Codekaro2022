@@ -1,0 +1,48 @@
+body{
+    padding: 2px;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h1,h3,p,a{
+    margin: 8px;
+}
+.name{
+    font-size: 22px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.Personal-details{
+    width: 40%;  
+}
+.profile-picture{
+    width: 20%;
+    justify-content: center;
+}
+.profile{
+    height: 200px;
+    border-radius: 50%;
+}
+.Social-links{
+    width: 38%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+
+.skill-hobbies{
+    padding: 5px;
+    width: 25%;
+    border-right: 1px solid lightgray;
+}
+ol li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
