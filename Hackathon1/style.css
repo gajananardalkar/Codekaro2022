@@ -37,11 +37,16 @@ h2,p,div,img{
 .place img{
     width: 100%;
     height: auto;
+    border-radius: 12px;
+
 }
 .name{
     text-align: center;
     height: 50%;
     margin-top: 0px;
+    border-radius: 12px;
+    width: 100%;
+
 }
 .head{
     padding: 5%;
