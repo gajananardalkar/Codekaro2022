@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lobster&family=Oleo+Script+Swash+Caps&family=Oswald&family=Poppins:wght@300;500&family=Roboto+Slab:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h2,p,div,img{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+.place{
+    width: 20%;
+    border-radius: 12px;
+    margin-left: 4%;
+}
+.Panchgani{
+    background-color: #cc2d4a;
+    border: 1px solid #cc2d4a;
+
+}
+.Mumbai{
+    background-color: #de3151;
+    border: 1px solid #de3151;
+}
+.Calangute{
+    background-color:  #bc1a6e;
+    border: 1px solid #bc1a6e;
+}
+.Lonavla{
+    background-color:  #d93b30;
+    border: 1px solid #d93b30;
+}
+.place img{
+    width: 100%;
+    height: auto;
+}
+.name{
+    text-align: center;
+    height: 50%;
+    margin-top: 0px;
+}
+.head{
+    padding: 5%;
+}
