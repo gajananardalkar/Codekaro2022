@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Challenge</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card-add">
+            <div class="Enrollement EnrollementRemove" id="UserEnroll">You are enrolled now</div>
+            <input type="text" id="add-user" placeholder="Add user name"  required ><br>
+            <button class="btn-add" onclick="Enroll(); AddUserName()" onchange="">Add User</button>
+            <div id="UserList"></div>
+        </div>
+         <div class="card-search">
+            <input type="text" id="search-user" placeholder="Search user name" required ><br>
+            <button class="btn-add" onclick="SearchUserName()">Search User</button>
+            <h3 id="SearchList"></h3>
+        </div> 
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    height: 50vh;
+    width: 1000px;
+
+}
+.card-add, .card-search{
+    height: 35vh;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 12px;
+    color: rgb(62, 59, 54);
+    background-color: rgb(251, 247, 251);
+}
+.btn-add{
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 12px;
+    color: rgb(239, 238, 238);
+    background-color: rgb(10, 9, 10);
+}
+
+.Enrollement{
+    text-align: center;
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius:8px;
+    color: rgb(62, 59, 54);
+    background-color: rgb(135, 249, 152);
+    border: 1px solid rgb(23, 235, 23);
+}
+.EnrollementRemove{
+display: none;    
+}
