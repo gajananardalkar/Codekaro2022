@@ -13,7 +13,8 @@
     border: 2px solid black; 
     text-align: center;
     font-size: 40px;  
-    background-color: wheat;
+    background-color: #D3CEDF;
+    border-radius: 8px;
 }
 .dice-rotation{
     animation-name: Dice-rotation;
@@ -23,6 +24,8 @@
     padding: 10px;
     margin:55px 0 10px 0;
     border-radius: 8px;
+    background-color: #748DA6;
+    color: #D3CEDF;
 }
 
 @keyframes Dice-rotation {
