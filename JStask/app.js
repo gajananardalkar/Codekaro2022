@@ -20,9 +20,11 @@ function AddUserName(){
 function SearchUserName(){
    let Name = document.getElementById('search-user').value
    console.log(Name)
+
    User.map(username =>{
+      console.log(username)
       if (username === Name){
-         document.getElementById('SearchList').innerHTML = Name + " is prsent in system"
+         document.getElementById('SearchList').innerHTML = Name + " is present in system"
          console.log("inside if")
       }
    })  

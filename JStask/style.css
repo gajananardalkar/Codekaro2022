@@ -25,6 +25,7 @@ input{
     border-radius: 12px;
     color: rgb(239, 238, 238);
     background-color: rgb(10, 9, 10);
+    cursor: pointer;
 }
 
 .Enrollement{
