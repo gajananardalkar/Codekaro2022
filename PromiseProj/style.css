@@ -1,0 +1,35 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(234, 212, 186);
+}
+.container,#authorsContainer{
+    /* width: 50%; */
+    width: 600px;
+    margin: 50px auto;
+    background-color: antiquewhite;
+    border-radius: 16px;
+    padding: 50px;
+}
+#authorsContainer{
+    display: flex;
+
+}
+.authorDivclass{
+    width: 110px;
+    margin: 20px auto;
+    background-color: rgb(234, 212, 186);
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: burlywood;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}

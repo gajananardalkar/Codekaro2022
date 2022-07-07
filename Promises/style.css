@@ -1,0 +1,25 @@
+#main-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 50vh; */
+    border: 1px solid black;
+    width: 500px;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+    border-style: dashed;
+}
+input{
+    text-decoration: none;
+    margin: 10px 0 10px 0;
+}
+#emailid:hover{
+    border-color: rgb(119, 153, 244);
+}
+
+#downloadfile , span{
+    margin-top: 10px;
+}
