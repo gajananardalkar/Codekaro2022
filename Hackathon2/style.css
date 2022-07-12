@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid  #00539CFF;
+    width: 400px;
+    padding: 10px;
+    /* margin: 35vh 0 0 65vh; */
+}
+
+input{
+    text-decoration: none;
+    margin: 8px 0 8px 0;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#nameid:hover, #enrollid:hover{
+    border: 2px solid rgb(119, 153, 244);
+    background-color:  rgb(190, 217, 240);
+}
+
+#submitid{
+    border-radius: 8px;
+    background-color:  rgb(190, 217, 240);
+}

@@ -30,25 +30,27 @@
 
 document.getElementById('enrollid').addEventListener('click', EnrollStudent)
 
-let EmailContainer = []
+let EmailContainer = [ ]
 console.log(EmailContainer)
 
 function EnrollStudent(){
-    EmailContainer =  " "
+    // EmailContainer =  [];
+    let userEmail = document.getElementById('emailid').value 
+    console.log(userEmail);
+
+    console.log(EmailContainer);        
     let childdiv = document.createElement('div')
     document.getElementById('main-container').appendChild(childdiv)
 
-    let userEmail = document.getElementById('emailid').value 
-    console.log(userEmail)
-
-   let EnrollStatus = EmailContainer.filter((email)=>{
-        if(userEmail === email){
-            console.log("helloif")
-            childdiv.innerHTML = "Already Enroll"
-        }else{
-            console.log("hello")
+    EmailContainer.map((email)=>{
+        if(email != null ){
+            console.log("inside if")
             EmailContainer.push(userEmail)
-            childdiv.innerHTML = "Successfully Enroll"
+            console.log(EmailContainer.text);        
+            childdiv.innerHTML = "Enroll Successfully"
+        }else{
+            console.log("inside else")
+            childdiv.innerHTML = "Already exist"
         }
     })
 
