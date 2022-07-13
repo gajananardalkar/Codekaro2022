@@ -1,19 +1,30 @@
 document.getElementById('submitid').addEventListener('click', Enroll)
 
-let StudentData = [ ]
+let StudentName = [ ]
+let EnrollNumber = [ ]
+
+
 function Enroll(){
-    StudentData = [{ }]
-    studentName = document.getElementById('nameid').value
-    enrollNumber = document.getElementById('enrollid').value
-
-    StudentData.name = studentName;
-    StudentData.EnrollmentNumber = enrollNumber;
+    let Name = document.getElementById('nameid').value
+    let SrNumber = document.getElementById('enrollid').value
 
 
-    StudentData.push[studentName]
-    StudentData.push[enrollNumber]
+    let emptyarray = EnrollNumber.filter((number)=>{
+       return number == SrNumber
+    })
 
+    if(emptyarray == SrNumber ){
+        console.log("Enrollment number is registered Please try new number")
+    }else{
+        StudentName.push(Name)
+        EnrollNumber.push(SrNumber)
+        console.log("Student is sucessfully Enrolled")
 
-    console.log(StudentData)
+    }
+    console.log(StudentName)
+    console.log(EnrollNumber)
 
+    document.getElementById('enrollid').value = ' '
+    document.getElementById('nameid').value = ' '
+    
 }
