@@ -7,9 +7,9 @@ body{
     padding :3.33px;
     border: 1px solid black;
     height: 100px;
-    /* border: 2px solid antiquewhite; */
     border-radius: 8px;
     color: wheat;
+    font-size: 35px;
 }
 .calculator{
     width: 300px;
@@ -33,4 +33,12 @@ body{
     background-color: black;
     cursor: pointer;
     font-size: 20px;
+}
+
+input{
+    width: 92%;
+    padding: 10px;
+}
+.d-none{
+    display: none;
 }

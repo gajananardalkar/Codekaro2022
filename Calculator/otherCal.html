@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Calculators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+ 
+        <div class="display" id="displayid">
+            <input type="text" placeholder="1st number ">
+            <input type="text" placeholder="1st number  ">
+        </div>
+
+    <div class="btn-container">
+        <div class="btn-line">
+            <button class="btn">Age</button>
+            <button class="btn">Area</button>
+            <button class="btn">BMI</button>
+        </div>
+
+        <div class="btn-line">
+            <button class="btn">Length</button>
+            <button class="btn">Speed</button>
+            <button class="btn">Discount</button>
+        </div>
+
+        <div class="btn-line">
+            <button class="btn">Time</button>
+            <button class="btn">Mass</button>
+            <button class="btn">Temp</button>
+           <a href="index.html"><button class="btn">Go Back</button></a> 
+        </div>
+    </div> 
+</div>
+
+<div class="Agecalculator d-none">
+ 
+    <div class="display" id="displayid">
+        <input type="text" placeholder="Enter your Birth Date ">
+        <input type="text" placeholder="Your age is -  ">
+    </div>
+    <button class="btn">Age</button>
+
+</div>
+
+<div id="Areacalculator" class= "d-none">
+ 
+    <div class="display" id="displayid">
+        <input type="text" id="arealength" placeholder="Enter length">
+        <input type="text" id="areawidth" placeholder="Enter length">
+    </div>
+    <button class="btn" id="Areasolution">Area</button>
+    <div id="solution">
+
+    </div>
+
+</div>
+
+<div id="BMIcalculator" class ="d-none">
+ 
+    <div class="display" id="displayid">
+        <input type="number" placeholder="Enter Height">
+        <input type="number" placeholder="Enter Weight in CM">
+        <input type="text" placeholder="Enter Age">
+    </div>
+    <button class="btn">BMI</button>
+
+</div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
