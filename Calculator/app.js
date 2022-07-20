@@ -162,20 +162,26 @@ Array.from(functionalButton).map((button)=>{
 
     button.addEventListener('click', (e)=>{
         console.log(e.target.innerHTML)
+        document.getElementById('btn-container').classList.add('d-none')
+        document.getElementById('displayid').classList.add('d-none')
 
        if(e.target.innerHTML == 'Area'){
-        document.getElementById('Areacalculator').classList.remove('d-none')
-          let length =  document.getElementById('arealength').value
-          let width = document.getElementById('areawidth').value
-          console.log(length)
-          console.log(width)
-                document.getElementById('Areasolution').addEventListener('click',()=>{
-                    let result = (length * width)
-                    console.log(3 * 2)
+            document.getElementById('Areacalculator').classList.remove('d-none')
+
+            document.getElementById('Areasolution').addEventListener('click',()=>{
+
+                let length =  document.getElementById('arealength').value
+                let width = document.getElementById('areawidth').value
+                    console.log(length)
+                    console.log(width)
+                    let result = eval(length * width)
+                    console.log(length * width)
+                
                     let resultdiv = document.createElement('div')
-                    let parentdiv = document.getElementById('solution')
+                    let parentdiv = document.getElementById('Areasolution')
                     parentdiv.appendChild(resultdiv)
-                    resultdiv.innerHTML = result
+                    resultdiv.style.color = "white"
+                    resultdiv.innerHTML = "Area of your Ractangle is: " +result
                 })
 
           

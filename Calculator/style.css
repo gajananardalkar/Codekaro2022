@@ -42,3 +42,8 @@ input{
 .d-none{
     display: none;
 }
+
+#Areasolution{
+    color: wheat;
+    padding: 10px;
+}
