@@ -15,7 +15,10 @@ function App() {
 
   return (
     <div className="App">
-      <MovieDetails title = {movies[1].title} picture = {movies[1].img} year = {movies[1].year}/>
+      <MovieDetails picture = {movies[1].img} title = {movies[1].title}  year = {movies[1].year}/>
+      <MovieDetails picture = {movies[0].img} title = {movies[0].title}  year = {movies[0].year}/>
+      <MovieDetails picture = {movies[2].img} title = {movies[2].title}  year = {movies[2].year}/>
+      <MovieDetails picture = {movies[3].img} title = {movies[3].title}  year = {movies[3].year}/>
     </div>
   );
 }

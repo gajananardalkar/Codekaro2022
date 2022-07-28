@@ -1,0 +1,18 @@
+.Card-Conatiner{
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 8px rgb(216, 216, 216);
+    margin: 50px;
+    border-radius: 12px;
+}
+.Card-img{
+    width: 100%;
+    border-radius: 12px;
+}
+p,h3{
+    margin: 0;
+    padding: 0;
+}
+.menu-name, .menu-disc{
+    padding: 0 0 10px 0;
+}
