@@ -1,18 +1,32 @@
 .Card-Conatiner{
-    width: 300px;
+    width: 100%;
+    margin: 0px; 
+}
+.foodcontainer{
+    display:flex;
+    flex-basis: 33.33%;
+    justify-content: center;
+}
+.card-body{
+    width: 250px;
     padding: 10px;
     box-shadow: 0 0 8px rgb(216, 216, 216);
     margin: 50px;
     border-radius: 12px;
 }
+
 .Card-img{
     width: 100%;
     border-radius: 12px;
+    object-fit: cover;
 }
 p,h3{
     margin: 0;
-    padding: 0;
+    padding: 5px;
 }
 .menu-name, .menu-disc{
     padding: 0 0 10px 0;
+}
+.d-none{
+    display: none;
 }
