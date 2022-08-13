@@ -2,6 +2,7 @@ import './App.css';
 import Foodcard from './Component/foodcard';
 import Backdrop from './Component/Backdrop';
 import Popup from './Component/Popup';
+import Cart from './Component/cart';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Foodcard img = "https://source.unsplash.com/1600x800/?veg"  Price = "359" offer = "45% Off" foodname = "veg" fooddesc = "Seat Home,Order Here, Avoid Covid"/>
       {/* <Backdrop/> */}
       {/* <Popup/> */}
+      {/* <Cart/> */}
     </div>
   );
 }
