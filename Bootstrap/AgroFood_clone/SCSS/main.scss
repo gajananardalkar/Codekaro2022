@@ -1,0 +1,64 @@
+
+$theme-colors: (
+  "primary":    #fff  ,
+  "secondary": #d2f4ea
+);
+// .nav-margin{
+// width: 600px;
+// }
+.icon-radius{
+    border-radius: 50px;
+}
+.bc-color{
+  background-color: #ffe484;
+}
+.farm-card{
+  height: 500px ;
+  background-image: url('../Images/Farm.jpeg');
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  // box-shadow: inset;
+  .discription{
+    position: absolute;
+      top: 35%;
+      left: 2%;
+      z-index: 1;
+    h1{
+      color: white;
+      font-size: 55px;
+    }
+    .btn-prop{
+      width: 150px;
+      color: #fff;
+      background: transparent;
+      border-color: #fff;
+    }
+  }
+  
+}
+.detail-info{
+  text-decoration:none;
+  color: black;
+  background-color:#CEE5D0;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.detail-info:hover{
+color: black;
+}
+
+.d-flex{
+  display: flex;
+}
+.bg-1{
+  background-color: #FFEEDB;
+}
+.bg-2{
+  background-color: #FFD8CC;
+}
+.bg-3{
+  background-color: #CEE5D0;
+}
+
+//  @import'../node_modules/bootstrap/scss/bootstrap.scss'
